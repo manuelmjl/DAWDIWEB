@@ -1,0 +1,68 @@
+body {
+    background-color: #267352;
+}
+
+h1 {
+    color: white;
+    font-family: system-ui;
+    box-shadow: black;
+    text-shadow: 5px 5px black;
+}
+
+.chat1 {
+    background-color: white;
+    width: 31em;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 33px;
+    text-align: center;
+    border: 8px solid;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
+
+.chat2 {
+    border: #802400 20px solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 50%;
+    padding: 10px;
+    background-color:#ac5a39;
+    color: white;
+}
+
+.chat3 {
+    border: #804800 20px solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 50%;
+    padding: 10px;
+    background-color:#ac7a39;
+    color: white;
+}
+
+.chat4 {
+    border: #3978ac 5px dashed;
+    padding: 10px;
+    background-color: #004680;
+    color: white;
+    height: 3em;
+    width: 25em;
+    margin-left: 21%;
+}
+
+.footer {
+    clear: both;
+    position: fixed;
+    bottom: 0 ;
+    width: 100%;
+    border-top: black 2px solid;
+    margin: 0;
+    padding: 0.25em 0 0.25em;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+}
