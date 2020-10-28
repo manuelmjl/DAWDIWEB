@@ -1,0 +1,66 @@
+body {
+    background-color: #fef8e6;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 4rem;
+}
+
+p {
+    text-align: justify;
+    width: 43rem;
+    margin: 0 auto;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+pre {
+    width: 35rem;
+    margin: 0 auto;
+    height: 13rem;
+    font-size: 13px;
+    padding: 5px;
+    border: black 2px solid;
+    background-color: #eeeeee;
+    white-space: pre-wrap;
+}
+
+.centerIMG{
+    display: block;
+    margin: auto;
+    WIDTH: 23rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+img, #corazon {
+    float: right;
+    width: 74px;
+}
+
+img, .block {
+    width: 74px;
+    float: left;
+}
+
+img, .felicidad {
+    width: 74px;
+    float: right;
+}
+
+hr{
+    width: 36rem;
+    height: 6px;
+    background-color: black;
+    border: none;
+}
+
+.footer {
+    border-top: black 3px solid;
+    padding-top: 20px;
+    margin-top: 42px;
+}

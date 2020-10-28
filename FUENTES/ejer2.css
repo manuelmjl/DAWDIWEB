@@ -1,0 +1,51 @@
+body {
+    background-color: #cbac4d;
+}
+
+@font-face {
+    font-family: Ribeye;
+    src: url(ribeye-marrow.woff);
+}
+
+
+@font-face {
+    font-family: Just Another;
+    src: url(just-another-hand.woff);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(lobster.woff);
+}
+
+
+h1 {
+    font-family: Ribeye Marrow;
+    text-align: center;
+    font-size: 3em;
+
+}
+
+em {
+    text-decoration: underline;
+}
+
+.pCent{
+    font-family: sans-serif;
+    text-align: inherit;
+    width: 34em;
+    margin: 0 auto;
+    line-height: 32px;
+}
+
+.pIzq{
+    font-family: Lobster;
+    font-size: 3em;
+}
+
+.pDer {
+    font-family: Just Another Hand;
+    text-align: right;
+    font-size: 3em;
+    color: white;
+}
