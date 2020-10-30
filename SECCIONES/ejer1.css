@@ -1,0 +1,51 @@
+body{
+    background-color: #997366;
+}
+header {
+    background-color:#9d847b;
+    width: 83em;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+h4 {
+    font-family: sans-serif;
+    line-height: 33px;
+}
+
+main {
+    border: 2px solid white;
+    padding: 5px;
+    width: 83em;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: -1em;
+    background-color: #b39f98;
+    height: 36em;
+}
+
+h2 {
+    background-color: white;
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+
+p {
+    border: 8px solid #422b24;
+    padding: 1em;
+    text-align: center;
+    width: 35em;
+    margin: 0 auto;
+    font-size: 1.5em;
+    margin-top: 1em;
+    font-family: sans-serif;
+    color: white;
+}
+

@@ -1,0 +1,44 @@
+body{
+    background-color: #c4c6b9;
+}
+
+h1 {
+    text-align: end;
+    font-size: 3em;
+    font-family: sans-serif;
+    color: #161669;
+    font-weight: 900;
+    letter-spacing: 50px;
+}
+
+h2{
+    background-color: hsl(68, 30%, 30%);
+    color: white;
+    clear: both;
+    background-color: hsl(68, 30%, 30%);
+    color: white;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+
+.centerIMG {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.derIMG {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.crocceStyle{
+    text-align: center;
+}

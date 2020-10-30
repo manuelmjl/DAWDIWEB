@@ -1,0 +1,83 @@
+body {
+    background-color: #e9f2fb;
+    padding: 0 50px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: SigmarOne;
+    src: url(sigmar-one.woff);
+}
+
+hr {
+    height: 13px;
+    width: 61em;
+    background-color: #7a99b8;
+    border-radius: 10px;
+    border: 1px solid black;
+    clear: both;
+    
+}
+
+h1 {
+    font-family: "SigmarOne";
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "SigmarOne";
+    color: #7a99b8;
+    text-shadow: 3px 3px black;
+    font-size: 45px;
+}
+
+.centerIMG {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 6px solid #7a99b8;
+    padding: 6px;
+}
+
+img#rat{
+    border: 6px solid #7a99b8;
+    padding: 6px; 
+}
+
+.derIMG {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 6px solid #7a99b8;
+    padding: 6px;
+}
+
+.pIzq{
+    float: left;
+    width: 33%;
+}
+
+.pDer {
+    width: 24em;
+    float: right;
+    margin-top: -19em;
+}
+
+i {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+em {
+    background-color: #ffffff;
+    color: #ff0031;
+}
+
+time {
+    color: blue;
+}
+
+
