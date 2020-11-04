@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Monoton;
+    src: url(../fonts/monoton.woff2);
+}
+
+body {
+    background-image: url(../img/matrix.png);
+}
+
+hr {
+    background-color: #40c31f;
+    width: 63em;
+    margin-bottom: 12em;
+    border: none;
+    height: 3px;
+}
+
+.emojyP {
+    text-align: center;
+    font-size: 5em;
+    margin-top: -2em;
+    color: #40c31f;
+}
+
+main {
+    background-color: black;
+    display: block;
+    width: 91em;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Monoton;
+    text-align: center;
+    color: #40c31f;
+    font-size: 4em;
+    text-decoration-line: underline;
+}
+
+h2 {
+    background-color: #40c31f;
+    font-size: 2.5em;
+    margin-top: 0em;
+    border: 1px solid white;
+    font-family: monospace;
+}
+
+.pongP1 {
+    width: 44em;
+    text-align: justify;
+    padding: 0.5em;
+    font-family: sans-serif;
+}
+
+.pongP2 {
+    width: 44em;
+    text-align: justify;
+    padding: 0.5em;
+    font-family: sans-serif;
+}
+
+section {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 70em;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.pong {
+    float: right;
+    margin-top: -9em;
+    border: 3px double #40c31f;
+    width: 24em;
+    margin-right: 0.5em;
+}
+
+.pong:before {
+    position: absolute;
+    display: block;
+    content: '';
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+.space {
+    float: left;
+    margin-top: -1em;
+    border: 3px double #40c31f;
+    margin-right: 1em;
+    height: 17em;
+    margin-left: 0.5em;
+}
+
+.pac {
+    float: right;
+    margin-top: -8em;
+    width: 19em;
+    border: 5px double #40c31f;
+    margin-right: 1em;
+}
+
+.titleem {
+    color: yellow;
+}
+
+em {
+    color: red;
+}
+
+time {
+    color: green;
+}
+
+.footer {
+    color: white;
+    margin-top: -10em;
+    text-align: center;
+    margin-left: -45em;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.footer2 {
+    color: white;
+    text-align: center;
+    margin-left: -55em;
+    font-family: sans-serif;
+    font-style: oblique;
+}

@@ -1,0 +1,24 @@
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+p { 
+    width: 34em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.styEmojy{
+    font-size: 3em;
+}
+
+.parachuteIMG {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-top: -19em;
+}
