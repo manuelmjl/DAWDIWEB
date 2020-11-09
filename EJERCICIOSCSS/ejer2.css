@@ -6,11 +6,11 @@ h2::first-letter{
     color: red;
 }
 
-li:nth-child(1):hover:before{
+li:nth-child(2n+1):hover:before{
     content: "Soy elemento impar";
 }
 
-li:nth-child(2):hover:after{
+li:nth-child(2n):hover:after{
     content: "Soy elemento par";
 }
 
@@ -18,45 +18,3 @@ li:nth-child(3):hover{
     color: greenyellow;
 }
 
-li:nth-child(3):hover:after{
-    content: "Soy elemento impar";
-    color: greenyellow;
-}
-
-li:nth-child(4):hover:after{
-    content: "Soy elemento par";
-}
-
-li:nth-child(5):hover:before{
-    content: "Soy elemento impar";
-}
-
-li:nth-child(6):hover:after{
-    content: "Soy elemento par";
-}
-
-li:nth-child(7):hover:before{
-    content: "Soy elemento impar";
-}
-
-li:nth-child(8):hover:after{
-    content: "Soy elemento par";
-}
-
-li:nth-child(9):hover:before{
-    content: "Soy elemento impar";
-}
-li:nth-child(10):hover:after{
-    content: "Soy elemento par";
-}
-
-li:nth-child(11):hover:before{
-    content: "Soy elemento impar";
-}
-
-li:nth-child(12):hover:after{
-    content: "Soy elemento par";
-}
-li:nth-child(13):hover:before{
-    content: "Soy elemento impar";
-}

@@ -30,12 +30,12 @@ a {
 
 
 ul li:nth-child(2)::before{
-    margin-left: 12em;
+    margin-left: -1.5em;
     content: url("icon/angry-regular.svg");
     width: 20px;
     height:20px;
-    left: 170px;
-    position:absolute;
+/*     left: 170px;
+ */    position:absolute;
     
 }
 
