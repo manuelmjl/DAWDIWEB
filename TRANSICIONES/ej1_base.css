@@ -1,0 +1,99 @@
+.container{
+    position: relative;
+}
+.caja{
+  width: 180px;
+  height: 180px;
+  background-color: #30B037;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.caja1{
+  background-color: #EFF277;
+  transition: background-color 1s;
+}
+
+.caja1:hover {
+  background-color: greenyellow;
+}
+
+.caja2{
+  background-color: #FBAE58;
+  transition: font-size 1s;
+}
+
+.caja2:hover {
+  font-size: 5em;
+}
+
+.caja3{
+  background-color: #3FD4BC;
+  transition: color 1s;
+}
+
+.caja3:hover{
+  color: #D8FF98;
+}
+
+.caja4{
+  background-color: #74C7EE;
+  transition: line-height 1s;
+}
+
+.caja4:hover{
+  line-height: 2px;
+}
+
+.caja5{
+  background-color: #FAAEC1;
+  transition: border-radius 1s;
+}
+
+.caja5:hover{
+  border-radius: 10px;
+}
+
+.caja6{
+  background-color: #E14F74;
+  transition: box-shadow 1s;
+}
+
+.caja6:hover{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.caja7{
+  background-color: #ED9BF9;
+  transition: opacity 1s;
+}
+.caja7:hover{
+  opacity: 0.5;
+}
+.caja8{
+  background-color: #95E3A2;
+  border: 0px;
+  transition: border 3s;
+}
+.caja8:hover{
+  border: 6px solid black;
+}
+.caja9{
+  background-color: #D6FF6F;
+  transition: margin 1s;
+}
+.caja9:hover{
+  margin: 5em;
+}
+.caja10{
+  background-color: #FF776F;
+  transition: padding 1s;
+}
+.caja10:hover{
+  padding: 5em;
+}
