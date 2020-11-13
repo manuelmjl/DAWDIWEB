@@ -12,11 +12,10 @@ margin: 15px;
 float: left;
 font-size: 18px;
 font-family: Arial;
-}
-
-.caja1{
 transition: transform 2s;
 }
+
+
 
 .caja1:hover {
   transform: scale(0.7);
@@ -24,7 +23,6 @@ transition: transform 2s;
 
 .caja2{
 background-color: #FBAE58;
-transition: transform 2s;
 
 }
 
@@ -34,7 +32,6 @@ transition: transform 2s;
 
 .caja3{
 background-color: #3FD4BC;
-transition: transform 2s;
 }
 
 .caja3:hover{
@@ -43,7 +40,6 @@ transition: transform 2s;
 
 .caja4{
 background-color: #74C7EE;
-transition: transform 2s;
 }
 
 .caja4:hover{
@@ -52,7 +48,6 @@ transition: transform 2s;
 
 .caja5{
 background-color: #FAAEC1;
-transition: transform 2s;
 }
 
 .caja5:hover{
@@ -61,7 +56,6 @@ transition: transform 2s;
 
 .caja6{
 background-color: #E14F74;
-transition: transform 2s;
 }
 
 .caja6:hover{
@@ -70,21 +64,18 @@ transition: transform 2s;
 
 .caja7{
 background-color: #ED9BF9;
-transition: transform 2s;
 }
 .caja7:hover{
   transform: translateX(10px);
 }
 .caja8{
 background-color: #95E3A2;
-transition: transform 2s;
 }
 .caja8:hover{
   transform: translateY(10px);
 }
 .caja9{
 background-color: #D6FF6F;
-transition: transform 2s;
 perspective: 400px;
 }
 .caja9:hover{
@@ -94,14 +85,12 @@ perspective: 400px;
 .caja10{
   background-color: #FF776F;
   perspective: 400px;
-  transition: transform 2s;
   }
   .caja10:hover{
     transform: rotateY(45deg);
   }
 .caja11{
 background-color: #FF776F;
-transition: transform 2s;
 }
 .caja11:hover{
   transform: matrix(0.7071067811865475, 0.7071067811865476, -0.7071067811865476, 0.7071067811865475, -0.7071067811865497, 34.648232278140824);
