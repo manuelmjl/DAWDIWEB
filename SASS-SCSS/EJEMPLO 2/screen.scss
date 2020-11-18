@@ -1,0 +1,71 @@
+/*Para las transiciones independientemente del navegador, 
+a este mixin le enviaremos los argumentos de: property, 
+duration y timing. Este último tendrá el valor por defecto linear.
+
+Para las animaciones donde también estarán determinadas por el navegador, 
+los argumentos que usaremos en este mixing son: name, duration y timing. 
+Este último tendrá el valor por defecto linear. */
+
+$color-text: #eee;
+$color-background: #666;
+$color-background-hover: #888;
+
+
+
+@mixin colorTextBackground {
+    color: $color-text;
+    background-color: $color-background;
+}
+
+@mixin colorTextBackgroundHover {
+    &:hover {
+        color: $color-text;
+        background-color: $color-background;
+    }
+}
+
+@mixin sizeBox {
+    box-sizing: -webkit-box;
+    box-sizing: -ms-flexbox;
+    box-sizing: -webkit-flex;
+    box-sizing: 4em;
+}
+
+@keyframes aparecer {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+@mixin transition($property, $num_sec) { //duda
+    transition: -webkit-box;
+    transition: -ms-flexbox;
+    transition: -webkit-flex;
+    transition: $property linear #{$num_sec};
+}
+
+@import "_menu.scss";
+
+header {
+    padding: 12px 30px;
+    font-size: 1.8em;
+    color: #444;
+    background-color: #eee;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    @include colorTextBackground();
+    @include sizeBox();
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+}
+
+
