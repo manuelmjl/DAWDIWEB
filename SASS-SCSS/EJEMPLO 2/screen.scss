@@ -12,6 +12,14 @@ $color-background-hover: #888;
 
 
 
+@mixin animation ($name, $duration, $timing){
+    -moz-animation: $name($duration, $timing);
+    -webkit-animation: $name($duration, $timing);
+    animation: $name($duration, $timing);
+}
+
+
+
 @mixin colorTextBackground {
     color: $color-text;
     background-color: $color-background;
@@ -44,7 +52,7 @@ $color-background-hover: #888;
     transition: -webkit-box;
     transition: -ms-flexbox;
     transition: -webkit-flex;
-    transition: $property linear #{$num_sec};
+    transition: $property linear #{$num_segundos};
 }
 
 @import "_menu.scss";
