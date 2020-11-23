@@ -6,23 +6,6 @@ duration y timing. Este último tendrá el valor por defecto linear.
 Para las animaciones donde también estarán determinadas por el navegador, 
 los argumentos que usaremos en este mixing son: name, duration y timing. 
 Este último tendrá el valor por defecto linear. */
-@-webkit-keyframes aparecer {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-@keyframes aparecer {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
 nav {
   position: absolute;
   width: 100%;
@@ -60,15 +43,17 @@ nav a {
 nav a:hover {
   color: #eee;
   background-color: #666;
-  -webkit-animation: iluminar 0.4s, linear;
-  animation: iluminar 0.4s, linear;
+  -webkit-animation: -webkit-box;
+          animation: -webkit-box;
+  animation: -ms-flexbox;
+  animation: iluminar 0.4s linear;
 }
 
 ul.submenu {
   transition: -webkit-box;
   transition: -ms-flexbox;
-  -webkit-transition: height linear 0.5s ease-out;
-  transition: height linear 0.5s ease-out;
+  -webkit-transition: height, 1, linear;
+  transition: height, 1, linear;
   position: absolute;
   height: 0px;
   overflow: hidden;
@@ -77,8 +62,8 @@ ul.submenu {
 li.categoria > a {
   transition: -webkit-box;
   transition: -ms-flexbox;
-  -webkit-transition: padding linear 0.4s ease-out;
-  transition: padding linear 0.4s ease-out;
+  -webkit-transition: padding, 1, linear;
+  transition: padding, 1, linear;
 }
 
 li.categoria:hover > a {

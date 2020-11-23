@@ -12,11 +12,11 @@ $color-background-hover: #888;
 
 
 
-@mixin animation ($name, $duration, $timing){
-    -moz-animation: $name($duration, $timing);
-    -webkit-animation: $name($duration, $timing);
-    animation: $name($duration, $timing);
-}
+@mixin animation($name, $duration, $timing: linear) {
+    animation: -webkit-box;
+    animation: -ms-flexbox;
+    animation: $name $duration $timing;
+  }
 
 
 
@@ -39,20 +39,12 @@ $color-background-hover: #888;
     box-sizing: 4em;
 }
 
-@keyframes aparecer {
-	from {
-		opacity: 1;
-	}
-	to {
-		opacity: 0;
-	}
-}
 
-@mixin transition($property, $num_sec) { //duda
+@mixin transition($property, $num_sec, $timing: linear) { //duda
     transition: -webkit-box;
     transition: -ms-flexbox;
     transition: -webkit-flex;
-    transition: $property linear #{$num_segundos};
+    transition: $property, $num_sec, $timing;
 }
 
 @import "_menu.scss";

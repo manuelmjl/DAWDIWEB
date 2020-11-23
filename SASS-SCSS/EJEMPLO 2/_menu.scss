@@ -2,34 +2,37 @@ nav {
     position: absolute;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+}
 
-    nav ul {
-        list-style-type: none;
-        padding: 0px;
-        margin: 0px;
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
 
-        nav>ul {
-            width: 100%;
-            height: 32px;
-            @include colorTextBackground;
-            nav a {
-                @include colorTextBackground;
-                text-decoration: none;
-                width: 160px;
-                padding: 7px 20px;
-                display: block;
-                text-align: center;
-                cursor: pointer;
-            
-                &.hover {
-                    @include colorTextBackground;
-                    @include animation(iluminar, 0.4s, linear);
-                }
-            }
-        }
+nav>ul {
+    width: 100%;
+    height: 32px;
+    @include colorTextBackground;
+}
 
-    }
+li.categoria {
+    float: left;
+}
 
+nav a {
+    @include colorTextBackground;
+    text-decoration: none;
+    width: 160px;
+    padding: 7px 20px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav a:hover {
+    @include colorTextBackground;
+    @include animation(iluminar, 0.4s, linear);
 }
 
 ul.submenu {
@@ -37,25 +40,17 @@ ul.submenu {
     position: absolute;
     height: 0px;
     overflow: hidden;
-
-    li.categoria {
-        float: left;
-        li.categoria>a {
-            @include transition(padding,1);
-        
-            &.hover {
-                padding: 10px 20px;
-            }
-        
-            li.categoria:hover ul.submenu {
-                height: 100px;
-            }
-            
-        }
-    }
 }
 
+li.categoria>a {
+    @include transition(padding,1);
+}
 
+li.categoria:hover>a {
+    padding: 10px 20px;
+    
+}
 
-
-
+li.categoria:hover ul.submenu {
+    height: 100px;
+}
