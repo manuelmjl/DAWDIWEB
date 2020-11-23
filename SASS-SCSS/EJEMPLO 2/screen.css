@@ -12,23 +12,6 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-nav > ul {
-  width: 100%;
-  height: 32px;
-  color: #eee;
-  background-color: #666;
-}
-
-li.categoria {
-  float: left;
-}
-
 nav a {
   color: #eee;
   background-color: #666;
@@ -49,7 +32,32 @@ nav a:hover {
   animation: iluminar 0.4s linear;
 }
 
-ul.submenu {
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li.categoria {
+  float: left;
+}
+
+nav ul .categoria > a {
+  transition: -webkit-box;
+  transition: -ms-flexbox;
+  -webkit-transition: padding, 1, linear;
+  transition: padding, 1, linear;
+}
+
+nav ul .categoria:hover > a {
+  padding: 10px 20px;
+}
+
+nav ul .categoria:hover ul.submenu {
+  height: 100px;
+}
+
+nav .submenu {
   transition: -webkit-box;
   transition: -ms-flexbox;
   -webkit-transition: height, 1, linear;
@@ -59,19 +67,11 @@ ul.submenu {
   overflow: hidden;
 }
 
-li.categoria > a {
-  transition: -webkit-box;
-  transition: -ms-flexbox;
-  -webkit-transition: padding, 1, linear;
-  transition: padding, 1, linear;
-}
-
-li.categoria:hover > a {
-  padding: 10px 20px;
-}
-
-li.categoria:hover ul.submenu {
-  height: 100px;
+nav > ul {
+  width: 100%;
+  height: 32px;
+  color: #eee;
+  background-color: #666;
 }
 
 header {
