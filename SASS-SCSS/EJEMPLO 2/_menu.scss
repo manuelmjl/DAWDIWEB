@@ -11,7 +11,7 @@ nav {
         text-align: center;
         cursor: pointer;
     }
-    a:hover {
+    &:hover {
         @include colorTextBackground;
         @include animation(iluminar, 0.4s, linear);
     }

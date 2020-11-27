@@ -23,7 +23,7 @@ nav a {
   cursor: pointer;
 }
 
-nav a:hover {
+nav:hover {
   color: #eee;
   background-color: #666;
   -webkit-animation: -webkit-box;
