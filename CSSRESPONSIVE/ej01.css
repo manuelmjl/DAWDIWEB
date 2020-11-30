@@ -1,0 +1,191 @@
+/* --------------------------------
+Site:       Site name
+CSS author: Your name here
+Updated:    Date
+Updated by: Your name here
+-------------------------------- */
+
+/* ----------------------------
+simple reset
+---------------------------- */
+
+html, body, ul, ol, li, form, fieldset, legend
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+fieldset,img { border: 0; }
+legend { color: #000; }
+li { list-style: none; }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td
+{
+    text-align: left;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+input, textarea, select
+{
+    font-size: 110%;
+    line-height: 1.1;
+}
+
+abbr, acronym
+{
+    border-bottom: .1em dotted;
+    cursor: help;
+}
+
+body
+{
+    margin: 20px;
+    color: #000;
+    background: #fff;
+    font: 90%/1.3 "DejaVu Sans", "URW Gothic L", "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", sans-serif;
+}
+
+#container
+{
+    float: left;
+    width: 1000px;
+    background: #bbb;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 500px){
+
+    #nav {
+        float: left;
+        width: 200px;
+        background-color: lime;
+    }
+
+    #container
+{
+    float: left;
+    width: 1000px;
+    height: 100em;
+    background: #bbb;
+}
+
+    #extras{
+        margin: auto;
+        width: 49.6em;
+        height: 10em;
+        margin-top: 21em;
+        margin-left: 15.6em;
+        background: gray;
+    }
+
+    #content{
+        float: left;
+        width: 715px;
+        margin: 0 0 0 25px;
+        background: yellow;
+    }
+
+.feature-image
+{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+
+}
+
+@media screen and (max-width: 500px)  and (min-width: 100px){
+    #extras{
+        margin: auto;
+        width: 38em;
+        height: 10em;
+        margin-top: 28em;
+        background: gray;
+    }
+    #container
+    {
+        float: left;
+        width: 1000px;
+        height: 100em;
+        background: #bbb;
+    }
+
+    #nav {
+        margin: auto;
+        width: 38em;
+        background-color: lime;
+    }
+
+    #content {
+        margin: auto;
+        margin-bottom: -27em;
+        margin-top: 1em;
+        width: 38em;
+        background: yellow;
+    }
+
+    .feature-image{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    #extras{
+        float: right;
+        width: 200px;
+        background: gray;
+    }
+
+    #nav {
+        float: left;
+        width: 200px;
+        background-color: lime;
+    }
+
+    #container
+    {
+        float: left;
+        width: 1000px;
+        height: 100em;
+        background: #bbb;
+    }
+
+    #content
+{
+    float: left;
+    width: 550px;
+    margin: 0 0 0 25px;
+    background: yellow;
+}
+
+.feature-image
+{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+

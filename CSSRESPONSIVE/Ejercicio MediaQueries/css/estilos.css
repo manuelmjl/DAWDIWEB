@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Pequeños reseteos */
+h1,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0.5em;
+}
+body {
+  background-color: white;
+}
+
+/* Para cambir el color de leta de ciertos elementos */
+/* .verde {
+  color: #0c9b3b;
+  margin-right: 4em;
+} */
+
+/* Contenedor general*/
+
+
+/* .menu_item {
+  padding: 0.1em;
+  margin-right: 1em;
+  font-size: 0.75em;
+} */
+
+/*Estilos parte principal*/
+
+
+/* section.main_text {
+  color: white;
+  font-weight: bolder;
+  padding: 0.5em;
+} */
+
+/* section.images {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+
+/* .hidden {
+  display: none;
+} */
+
+/* Para el caso de pantalla superior a 576px */
+
+
+/* Para el caso de pantalla superior a 992px */
+
+@media screen and (min-width: 992px){
+  section.images img {
+    height: 97px;
+    width: 25%;
+  }
+  
+  main {
+    background-color: #666666;
+    display: flex;
+    flex-wrap: wrap;
+        position: absolute;
+  }
+  
+  main section {
+    width: 100%;
+  }
+  .container {
+    font-family: "Righteous", cursive;
+    margin: 20px auto;
+    width: 90%;
+    position: absolute;
+  }
+  
+  /* Parte del logo y menú */
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    display: none;
+  }
+  section.main_text {
+    color: white;
+    font-weight: bolder;
+    padding: 0.5em;
+    margin-left: 35em;
+    width: 28em;
+  }
+  section.images {
+    flex-wrap: wrap;
+    width: 67%;
+    position: absolute;
+
+  }
+  .hidden {
+    display: inline;
+  }
+
+  .novedades {
+    display: flex;
+    position: absolute;
+    width: 65em;
+    margin-top: 19em;
+  }
+  .verde {
+    color: #0c9b3b;
+    margin-right: 4em;
+  }
+
+  nav {
+    display: flex;
+    position: absolute;
+    margin-left: 51em;
+  }
+
+  .menu_item {
+    padding: 0.1em;
+    margin-right: 1em;
+    font-size: 0.75em;
+  }
+}
+
+@media screen and (max-width: 992px)  and (min-width: 576px){
+  section.images img {
+    height: 100px;
+    width: 25%;
+    width: 7.9em;
+
+  }
+  
+  main {
+    background-color: #666666;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1em;
+    position: absolute;
+    width: 47em;
+  }
+  
+  main section {
+    width: 100%;
+  }
+  .container {
+    font-family: "Righteous", cursive;
+    margin: 20px auto;
+    width: 90%;
+  }
+  
+  /* Parte del logo y menú */
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    display: none;
+  }
+  section.main_text {
+    color: white;
+    font-weight: bolder;
+    padding: 0.5em;
+    margin-left: -1em;
+    width: 19em;
+  }
+  section.images {
+    flex-wrap: wrap;
+    width: 44%;
+    position: absolute;
+    margin-left: 30.8em;
+
+  }
+  .hidden {
+    display: none;
+  }
+
+  .novedades {
+    display: flex;
+    margin-left: 1em;
+    margin-top: 28em;
+
+  }
+  .verde {
+    color: #0c9b3b;
+    margin-right: 4em;
+  }
+
+  nav {
+    display: flex;
+    position: absolute;
+    margin-left: 35.7em;
+  }
+
+  .menu_item {
+    padding: 0.1em;
+    margin-right: 1em;
+    font-size: 0.75em;
+  }
+}
+
+@media screen and (max-width: 576px)  and (min-width: 100px){
+  section.images img {
+    height: 100px;
+    width: 25%;
+    width: 5.9em;
+
+  }
+  
+  main {
+    background-color: #666666;
+    display: flex;
+    flex-wrap: wrap;
+    width: 24.5em;
+
+  }
+  
+  main section {
+    width: 100%;
+  }
+  .container {
+    font-family: "Righteous", cursive;
+    width: 90%;
+  }
+  
+  /* Parte del logo y menú */
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    display: none;
+  }
+  section.main_text {
+    color: white;
+    font-weight: bolder;
+    padding: 0.5em;
+    width: 24em;
+  }
+  section.images {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 13em;
+
+  }
+  .hidden {
+    display: none;
+  }
+
+  .verde {
+    color: #0c9b3b;
+    margin-right: 4em;
+  }
+
+  nav {
+    margin-left: 20em;
+    position: absolute;
+  }
+
+  .menu_item {
+    padding: 0.1em;
+    margin-right: 1em;
+    font-size: 0.75em;
+  }
+
+  .novedades {
+    width: 25em;
+  }
+}
