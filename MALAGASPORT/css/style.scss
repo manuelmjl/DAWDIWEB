@@ -1,0 +1,548 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+$img-background-index: url(https://live.staticflickr.com/1656/26031883676_182191d803_b.jpg);
+$background-color-box-index: #fff;
+$multible-background-color: #F2F2F2;
+$background-color-section: #5D6D7E;
+$color: #646464;
+$color-1: #646464;
+$color2: white;
+$background-color-button: #3A9BDC;
+$background-color-footer-index: #db0a40;
+$position-abs: absolute;
+$background-img-paralax-1: url(https://www.10wallpaper.com/wallpaper/3840x2400/1801/Extreme_sport_Steep_Game_4K_3840x2400.jpg);
+$background-img-1: url(https://e.rpp-noticias.io/normal/2014/03/09/1318371.jpg);
+$background-img-2: url(https://www.younextbike.com/wp-content/uploads/2018/10/ciclismo-oto%C3%B1o-1024x683.jpg);
+$background-img-3: url(https://www.joanseguidor.com/wp-content/uploads/2019/03/ciclismo-australiano-pista.jpg);
+$background-img-4: url(https://s1.eestatic.com/2019/08/28/deportes/ciclismo/Ciclismo-Trial-Accidentes-Ciclismo_424968629_133204973_1706x960.jpg);
+$background-img-5: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/10/30/15724308922393.jpg);
+$background-img-6: url(https://i1.wp.com/www.rodado26.com/wp-content/uploads/2018/09/Fotolia_218606082_Subscription_Monthly_M-1.jpg?fit=1688%2C1126&ssl=1);
+$color-caption: #000;
+$color-caption-span: #fff;
+$color-1: #777;
+@mixin transition($property, $num_sec) { //duda
+    transition: $property $num_sec;
+}
+
+@mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+       -moz-box-shadow: $shadow;       
+            box-shadow: $shadow;
+  }
+  a{text-decoration: none;}
+  @media screen and (min-width: 411px) and (max-width: 768px){
+    .bgimg-1 {
+      position: relative;
+      opacity: 0.65;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+    .bgimg-1 {
+      background-image: $background-img-paralax-1;
+      height: 31em;
+      width: 78em;
+    }
+
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: $color-caption;
+    }
+    
+    .caption span.border {
+      background-color: $color-caption;
+      color: $color-caption-span;
+      padding: 18px;
+      font-size: 25px;
+      letter-spacing: 10px;
+    }
+    
+    h3 {
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font: 20px "Lato", sans-serif;
+      color: $color-caption;
+    }
+    
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1024px) {
+      .bgimg-1{
+        background-attachment: scroll;
+      }
+    }
+    .fondo-detalle{
+      height: 131%;
+      margin: 0;
+      font: 400 15px/1.8 "Lato", sans-serif;
+      color: $color-1;
+      width: 100%;
+    }
+    
+    h1{
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+  
+    p {
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+    }
+    
+  
+    .blue-bg{
+        position: fixed;
+        background: $img-background-index;
+        background-size: cover;
+        height: 751px;
+        width: 100vw;
+        z-index: -1;
+        overflow-x: hidden
+    }
+      
+    .white-bg{
+        position: $position-abs;
+        background-color: $background-color-box-index;
+        min-height: 343px;
+        margin: 210px 0px;
+        width: 99vw;
+        height: 343px;
+        transform: skewY(5deg);
+        z-index: -1;
+    }
+ 
+    .acuaticos {  
+        top: 664px;
+    }
+    
+    .futbol {  
+        top: 1315px;
+    }
+    
+    .content {
+        position: $position-abs;
+        margin: 250px 10vw;
+        max-width: 60vw;
+        background-color: transparent;
+    
+      .content-acua {
+          position: $position-abs;
+          top: 664px;
+          margin: 250px 10vw;
+          max-width: 60vw;
+          background-color: transparent;
+      }
+      
+      .content-futbol {
+          position: $position-abs;
+          top: 1315px;
+          margin: 250px 10vw;
+          max-width: 60vw;
+          background-color: transparent;
+      }
+    }
+    
+    
+    
+    .shadow{
+        box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3)
+    }
+    
+    .btnVer {
+        float: right;
+        height: 3em;
+        width: 7em;
+        margin-top: 5em;
+        border: none;
+        border-radius: 5px;
+        background-color: $background-color-button;
+        color: $color2;
+    }
+    
+    .section-categoria{
+      padding: 1em;
+      background-color: $background-color-section;
+      height: 5em;
+      .title-section {
+        color: $color2;
+        text-align: center;
+      }
+      .fondo-detalle {
+        background-color: $multible-background-color;
+      }
+      .footer-section {
+          margin-top: -13em;
+          height: 13em;
+          background-color: $multible-background-color;
+      }
+    }
+    
+    
+    
+    .grid-container {
+        justify-content: space-around;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        width: 74em;
+        margin-top: 8em;
+        width: 74em;
+    
+        #bck-1{
+          background-image: $background-img-1;
+          background-repeat: no-repeat;
+          background-size: 45.5em;        }
+      
+        #bck-2{
+          background-image: $background-img-2;
+          background-repeat: no-repeat;
+          background-size: 45.5em;}      
+        #bck-3{
+          background-image: $background-img-3;
+          background-repeat: no-repeat;
+          background-size: 45.5em;        }
+      
+        #bck-4{
+          background-image: $background-img-4;
+          background-repeat: no-repeat;
+          background-size: 45.5em;      }
+      
+        #bck-5{
+          background-image: $background-img-5;
+          background-repeat: no-repeat;
+          background-size: 45.5em;        }
+      
+        #bck-6{
+          background-image: $background-img-6;
+          background-repeat: no-repeat;
+          background-size: 45.5em;
+        }
+      }
+    
+      .grid-item {
+        padding: 20px;
+        font-size: 25px;
+        text-align: center;
+        height: 17em;
+    width: 100%;
+        margin-bottom: 1em;
+        @include transition(box-shadow, 1s);
+          &:hover{
+            @include box-shadow(-2px -5px 5px 0px rgba(0,0,0,0.3));
+            background-color: #17a2b8;
+          }
+    }
+    
+      .title-content {
+        font-family: sans-serif;
+        color:color;
+        font-size: 34px;
+        
+        .text-content {
+          font-size: 12px;
+        }
+      }
+    
+      
+    
+    
+      .img-left {
+        display: none;
+      }
+    
+      .img-rigth {
+        display: none;
+      }
+    
+      .text-categoria {
+        margin-top: 5.5em;
+        text-align: center;
+        font-size: 56px;
+        font-family: system-ui;
+        color: $background-color-box-index;
+      }
+    
+    
+      .btnEventos {
+        display: none;
+      }
+    
+      .imgEventos {
+        display: block;
+        margin: auto;
+        margin-top: 1em;
+      }
+  }
+
+  @media screen and (min-width: 800px){
+
+    .bgimg-1 {
+      position: relative;
+      opacity: 0.65;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+    .bgimg-1 {
+      background-image: $background-img-paralax-1;
+      height: 20em;
+    }
+
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: $color-caption;
+    }
+    
+    .caption span.border {
+      background-color: $color-caption;
+      color: $color-caption-span;
+      padding: 18px;
+      font-size: 25px;
+      letter-spacing: 10px;
+    }
+    
+    h3 {
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font: 20px "Lato", sans-serif;
+      color: $color-caption;
+    }
+    
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1024px) {
+      .bgimg-1{
+        background-attachment: scroll;
+      }
+    }
+
+    .fondo-detalle{
+      height: 131%;
+      margin: 0;
+      font: 400 15px/1.8 "Lato", sans-serif;
+      color: $color-1;
+      width: 100%;
+    }
+    
+    h1{
+      font-family: 'Montserrat', sans-serif;
+  }
+    
+  
+  p {
+      font-family: 'Open Sans', sans-serif;
+      text-align: justify;
+  }
+    
+  
+  .blue-bg{
+      position: fixed;
+      background: $img-background-index;
+      background-size: cover;
+      height: 751px;
+      width: 100vw;
+      z-index: -1;
+      overflow-x: hidden
+  }
+    
+  .white-bg{
+      position: $position-abs;
+      background-color: $background-color-box-index;
+      min-height: 343px;
+      margin: 210px 0px;
+      width: 99vw;
+      height: 343px;
+      transform: skewY(5deg);
+      z-index: -1;
+  }
+  
+  
+  .acuaticos {  
+      top: 664px;
+  }
+  
+  .futbol {  
+      top: 1315px;
+  }
+  
+  .content {
+      position: $position-abs;
+      margin: 250px 10vw;
+      max-width: 60vw;
+      background-color: transparent;
+  
+    .content-acua {
+        position: $position-abs;
+        top: 664px;
+        margin: 250px 10vw;
+        max-width: 60vw;
+        background-color: transparent;
+    }
+    
+    .content-futbol {
+        position: $position-abs;
+        top: 1315px;
+        margin: 250px 10vw;
+        max-width: 60vw;
+        background-color: transparent;
+    }
+  }
+  
+  
+  
+  .shadow{
+      box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3)
+  }
+  
+  .btnVer {
+      float: right;
+      height: 3em;
+      width: 7em;
+      margin-top: 5em;
+      border: none;
+      border-radius: 5px;
+      background-color: $background-color-button;
+      color: $color2;
+  }
+  
+  .section-categoria{
+    padding: 1em;
+    background-color: $background-color-section;
+    height: 5em;
+    .title-section {
+      color: $color2;
+      text-align: center;
+    }
+    .fondo-detalle {
+      background-color: $multible-background-color;
+    }
+    .footer-section {
+        margin-top: -13em;
+        height: 13em;
+        background-color: $multible-background-color;
+    }
+  }
+  
+  
+  
+  .grid-container {
+      display: grid;
+      justify-content: space-around;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+      margin-top: 4em;
+  
+      #bck-1{
+        background-image: $background-img-1;
+        background-repeat: no-repeat;
+        background-size: 13em;
+      }
+    
+      #bck-2{
+        background-image: $background-img-2;
+        background-repeat: no-repeat;
+        background-size: 13em;
+      }
+    
+      #bck-3{
+        background-image: $background-img-3;
+        background-repeat: no-repeat;
+        background-size: 13em;
+      }
+    
+      #bck-4{
+        background-image: $background-img-4;
+        background-repeat: no-repeat;
+        background-size: 13em;
+      }
+    
+      #bck-5{
+        background-image: $background-img-5;
+        background-repeat: no-repeat;
+        background-size: 13em;
+      }
+    
+      #bck-6{
+        background-image: $background-img-6;
+        background-repeat: no-repeat;
+        background-size: 13em;
+      }
+    }
+   
+    .grid-item {
+      padding: 20px;
+      font-size: 25px;
+      text-align: center;
+      height: 6em;
+      width: 11em;
+      margin-bottom: 1em;
+      @include transition(box-shadow, 1s);
+        &:hover{
+          @include box-shadow(-2px -5px 5px 0px rgba(0,0,0,0.3));
+          background-color: #17a2b8;
+        }
+  }
+  
+    .title-content {
+      font-family: sans-serif;
+      color:color;
+      font-size: 34px;
+      
+      .text-content {
+        font-size: 12px;
+      }
+    }
+  
+    
+  
+  
+    .img-left {
+      width: 17em;
+    }
+  
+    .img-rigth {
+      width: 17em;
+    }
+  
+    .text-categoria {
+      margin-top: 5.5em;
+      text-align: center;
+      font-size: 23px;
+      font-family: system-ui;
+      color: $background-color-box-index;
+    }
+  
+  
+    .btnEventos {
+      width: 7em;
+      height: 3em;
+      border-radius: 0.3em;
+      border: none;
+      background-color: $background-color-footer-index;
+      color: $background-color-box-index;
+      font-size: 1em;
+      font-family: sans-serif;
+      display: block;
+      margin: auto;
+      margin-top: 5.3em;
+    }
+  
+    .imgEventos {
+      display: block;
+      margin: auto;
+      margin-top: 1em;
+    }
+  }
+  
+  

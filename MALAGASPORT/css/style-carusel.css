@@ -1,0 +1,516 @@
+@media screen and (min-width: 881px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  .bgimg-2 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimg-2 {
+    background-image: url(https://www.younextbike.com/wp-content/uploads/2018/10/ciclismo-oto%C3%B1o-1024x683.jpg);
+    height: 20em;
+  }
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  .caption span.border {
+    background-color: #000;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #000;
+  }
+  /* Turn off parallax scrolling for tablets and phones */
+}
+
+@media only screen and (min-width: 881px) and (max-width: 1024px) {
+  .bgimg-2 {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (min-width: 881px) {
+  .slider {
+    position: relative;
+    height: 79%;
+    width: 90em;
+    margin-top: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .slider .publicidad {
+    display: none;
+  }
+  .slider .publicidad-btn {
+    display: none;
+  }
+  .slider .slide {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin-left: 5em;
+    width: 90em;
+  }
+  .slider .slide:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .2;
+  }
+  .slider .slide i {
+    position: absolute;
+    content: "";
+    font-size: 45px;
+    width: 40px;
+    top: 48%;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider .slide i:hover {
+    opacity: .6;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider .slide i.prev {
+    left: 80px;
+  }
+  .slider .slide i.prev:hover {
+    -webkit-animation: prevmoving 1s infinite;
+            animation: prevmoving 1s infinite;
+  }
+  .slider .slide i.next {
+    right: 80px;
+  }
+  .slider .slide i.next:hover {
+    -webkit-animation: nextmoving 1s infinite;
+            animation: nextmoving 1s infinite;
+  }
+  .box {
+    margin-top: 1em;
+    margin-bottom: 5em;
+    color: #777;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+    height: 13em;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  h1 {
+    text-align: center;
+  }
+  @-webkit-keyframes prevmoving {
+    from {
+      left: 85px;
+    }
+    to {
+      left: 70px;
+    }
+  }
+  @keyframes prevmoving {
+    from {
+      left: 85px;
+    }
+    to {
+      left: 70px;
+    }
+  }
+  @-webkit-keyframes nextmoving {
+    from {
+      right: 85px;
+    }
+    to {
+      right: 70px;
+    }
+  }
+  @keyframes nextmoving {
+    from {
+      right: 85px;
+    }
+    to {
+      right: 70px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  .bgimg-2 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimg-2 {
+    background-image: url(https://www.younextbike.com/wp-content/uploads/2018/10/ciclismo-oto%C3%B1o-1024x683.jpg);
+    height: 31em;
+    width: 80em;
+  }
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  .caption span.border {
+    background-color: #000;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #000;
+  }
+  /* Turn off parallax scrolling for tablets and phones */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 880px) and (max-width: 1024px) {
+  .bgimg-2 {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
+  .slider {
+    position: relative;
+    height: 79%;
+    width: 79em;
+    margin-top: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .slider .publicidad {
+    display: none;
+  }
+  .slider .publicidad-btn {
+    display: none;
+  }
+  .slider .slide {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin-left: 5em;
+    height: 40em;
+  }
+  .slider .slide:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .2;
+  }
+  .slider .slide i {
+    position: absolute;
+    content: "";
+    font-size: 45px;
+    width: 40px;
+    top: 48%;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider .slide i:hover {
+    opacity: .6;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider .slide i.prev {
+    left: 80px;
+  }
+  .slider .slide i.prev:hover {
+    -webkit-animation: prevmoving 1s infinite;
+            animation: prevmoving 1s infinite;
+  }
+  .slider .slide i.next {
+    right: 80px;
+  }
+  .slider .slide i.next:hover {
+    -webkit-animation: nextmoving 1s infinite;
+            animation: nextmoving 1s infinite;
+  }
+  .box {
+    margin-top: -7em;
+    margin-bottom: 5em;
+    color: #777;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+    height: 13em;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  h1 {
+    text-align: center;
+  }
+  @-webkit-keyframes prevmoving {
+    from {
+      left: 85px;
+    }
+    to {
+      left: 70px;
+    }
+  }
+  @keyframes prevmoving {
+    from {
+      left: 85px;
+    }
+    to {
+      left: 70px;
+    }
+  }
+  @-webkit-keyframes nextmoving {
+    from {
+      right: 85px;
+    }
+    to {
+      right: 70px;
+    }
+  }
+  @keyframes nextmoving {
+    from {
+      right: 85px;
+    }
+    to {
+      right: 70px;
+    }
+  }
+  .posicionamiento-ele-fo {
+    margin-left: 17em;
+  }
+  .posicionamiento-ele-fo-2 {
+    margin-left: 9em;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  .bgimg-2 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimg-2 {
+    background-image: url(https://www.younextbike.com/wp-content/uploads/2018/10/ciclismo-oto%C3%B1o-1024x683.jpg);
+    height: 31em;
+    width: 26em;
+  }
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  .caption span.border {
+    background-color: #000;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #000;
+  }
+  /* Turn off parallax scrolling for tablets and phones */
+}
+
+@media only screen and (min-width: 411px) and (max-width: 767px) and (max-device-width: 1024px) {
+  .bgimg-2 {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 767px) {
+  .imgEventos {
+    width: 10em;
+  }
+  .slider {
+    height: 79%;
+    width: 26em;
+    margin-top: 2em;
+  }
+  .slider .publicidad {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 26em;
+    height: 21em;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .slider .publicidad-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 53em;
+    height: 11em;
+    margin-top: -13em;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .slider .slide {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 38em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .slider .slide:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .2;
+  }
+  .slider .slide i {
+    position: absolute;
+    content: "";
+    font-size: 45px;
+    width: 40px;
+    top: 48%;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider .slide i:hover {
+    opacity: .6;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider .slide i.prev {
+    left: 80px;
+  }
+  .slider .slide i.prev:hover {
+    -webkit-animation: prevmoving 1s infinite;
+            animation: prevmoving 1s infinite;
+  }
+  .slider .slide i.next {
+    right: 80px;
+  }
+  .slider .slide i.next:hover {
+    -webkit-animation: nextmoving 1s infinite;
+            animation: nextmoving 1s infinite;
+  }
+  .box {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  @-webkit-keyframes prevmoving {
+    from {
+      left: 85px;
+    }
+    to {
+      left: 70px;
+    }
+  }
+  @keyframes prevmoving {
+    from {
+      left: 85px;
+    }
+    to {
+      left: 70px;
+    }
+  }
+  @-webkit-keyframes nextmoving {
+    from {
+      right: 85px;
+    }
+    to {
+      right: 70px;
+    }
+  }
+  @keyframes nextmoving {
+    from {
+      right: 85px;
+    }
+    to {
+      right: 70px;
+    }
+  }
+}
+/*# sourceMappingURL=style-carusel.css.map */
