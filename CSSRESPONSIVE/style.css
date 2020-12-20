@@ -1,0 +1,58 @@
+.nav-header {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 71em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.courses {
+    margin-left: 17em;
+    margin-top: 2em;
+}
+
+.course {
+    border: 1px solid black;
+    width: 17em;
+    float: left;
+    padding-left: 1em;
+    border-radius: 1em;
+}
+
+.articles {
+    float: left;
+    margin-left: 9em;
+    margin-top: 2em;
+}
+
+article {
+    width: 17em;
+    float: left;
+    padding-left: 1em;
+}
+
+img {
+    width: 8em;
+}
+
+p {
+    width: 16em;
+    text-align: center;
+}
+
+.sidebar {
+    margin-top: 1em;
+    background-color: black;
+    color: white;
+    float: left;
+    height: 35em;
+}
+
+.menu-item {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
