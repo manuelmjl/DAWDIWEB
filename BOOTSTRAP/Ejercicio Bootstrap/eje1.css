@@ -1,0 +1,30 @@
+.bg-success{
+    border: 2px solid black;
+    height: 40px;
+    margin: 10px;
+}
+
+.bg-danger{
+    border: 2px solid black;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+.bg-info{
+    height: 50px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.bg-warning{
+    height: 280px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.bg-primary{
+    height: 120px;
+    border: 2px solid black;
+    margin-left: 11px;
+
+}

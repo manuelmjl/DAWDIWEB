@@ -1,0 +1,26 @@
+.w-84 {
+    border: 1px solid #2995B3;
+    color: gray;
+}
+
+.mt-personalizado {
+    margin-top: 48%;
+    width: 100%;
+}
+
+.sty-text{
+    margin-top: 126%;
+    background-color: #2995B3;
+    color: black;
+    font-size: 19px;
+}
+
+.file-personalizado {
+    background-color: dimgrey;
+    color: white;
+}
+
+.box-personalizado {
+    margin-right: -5em;
+    margin-top: 3em;
+}
